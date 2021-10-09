@@ -1,0 +1,21 @@
+.container{
+    width: 1300px;
+    height: 600px;
+    border: 1px solid sandybrown;
+    background-color: salmon;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container{  width: 850px;
+    height: 450px;
+    background-color: green;
+}
+}
+@media only screen and (max-width: 700px){
+    .container{
+        background-color: slateblue;
+        width: 300px;
+        height: 300px;
+    }
+}
