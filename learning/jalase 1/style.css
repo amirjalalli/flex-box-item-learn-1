@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: brown;
+    display: flex;
+}
+.item-box{
+    font-size: 20px;
+    background-color: skyblue;
+    padding: 20px;
+    margin: 20px;
+}
